@@ -22,6 +22,16 @@ After that it should work like this:
 
 ![](https://i.stack.imgur.com/IvIZt.png)
 
+## Atom settings
+
+* Install the Atom plugin [linter-eslint](https://github.com/AtomLinter/linter-eslint). You are finished :)
+
+or
+
+Atom -> Preferences -> Install -> Search "linter-eslint" -> Install
+
+The plugin will detect automatically the .eslintrc file in your project and will start linting on the fly the source code showing all the errors and warning.
+
 ## ESLint config
 
 ESLint doesn't come with a config. You have to create your own or use a preset:
